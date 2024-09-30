@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <title>Final task</title>
+</head>
+
+<body>
+    <div class="servicing">
+        <div class="various-menus">
+            <div class="various-menus__icons">
+
+                <img src="img/logo.png" alt="logo of company">
+                <img src="img/search.png" alt="search option">
+               </div>
+                <div class="menu-items">
+                    <div class="menu-items__services">
+                    <a class="euip-repair">Equipment repair</a>
+                    <a>Services</a>
+                    <a>For Corporate clients</a>
+                    <a>For equipment sellers</a>
+                    <a>For partners</a>
+                    <a>For manufacturers</a>
+                    <a>For service centers</a>
+                    <a>Contacts</a>
+                    </div>
+
+                    <div class="footer-2">
+                    <div>
+                        <img src="img/call.png" alt="call icon">
+                        <img src="img/chat.png" alt="chat icon">
+                        <img src="img/profile.png" alt="profile icon">
+                    </div>
+                    <h4>mail@cps.com</h4>
+                    <h2>8 800 890 8900</h2>
+                    <h4> RU EN CH</h4>
+                </div>
+                </div>
+
+        </div>
+
+        <div class="container">
+            <div class="main-services">
+                <div class="main-services__icons">
+                    <img class="close"onclick="closeit()" src="img/cross.png" alt="cross option">
+                    <img src="img/logo.png" alt="logo of company">
+                    <img src="img/search.png" alt="search option">
+                   </div>
+                    <div class="menu-items">
+                        <div class="menu-items__services">
+                        <a class="euip-repair">Equipment repair</a>
+                        <a>Services</a>
+                        <a>For Corporate clients</a>
+                        <a>For equipment sellers</a>
+                        <a>For partners</a>
+                        <a>For manufacturers</a>
+                        <a>For service centers</a>
+                        <a>Contacts</a>
+                        </div>
+
+                        <div class="footer-2">
+                        <div>
+                            <img src="img/call.png" alt="call icon">
+                            <img src="img/chat.png" alt="chat icon">
+                            <img src="img/profile.png" alt="profile icon">
+                        </div>
+                        <h4>mail@cps.com</h4>
+                        <h2>8 800 890 8900</h2>
+                        <h4> RU EN CH</h4>
+                    </div>
+                    </div>
+
+            </div>
+        </div>
+        <div class="feedback">
+                <div class="feedback__contents">
+                <img class="close" onclick="closethis()"src=img/close.png>
+                <h1>Feedback</h1>
+                <input type="text" placeholder="name">
+                <input type ="password" placeholder="password">
+                <input type="email" placeholder="email">
+                <p>By clicking submit you consent to the processing of personal data and agree with our privacy policy.</p>
+                <button class="send">Send</button>
+                </div>
+
+        </div>
+        <div class="modal-call">
+            <div class="modal-call__contents">
+            <img class="close"onclick="closing()" src="img/close.png">
+            <h1>Order call</h1>
+            <input type="number" placeholder="phone">
+            <p>By clicking submit you consent to the processing of personal data and agree with our privacy policy.</p>
+            <button class="send">Send</button>
+            </div>
+        </div>
+        <div class="header">
+            <button id="header__burger" onclick="clicked()"><img src="./img/icon-1.png" alt="burger icon"></button>
+            <img src="./img/logo.png" alt="logo">
+            <div class="header__extra">
+                <img src="./img/call.png" alt="call icon">
+                <img src="./img/chat.png" alt="chat icon">
+                <img src="./img/profile.png" alt="profile icon">
+            </div>
+            <button class="requesting" onclick="clack()"><img  src="./img/icon-2.png" alt="repair icon"></button>
+            <button class="status" onclick="clock()"><img src="./img/icon-3.png" alt="checkstatus icon"></button>
+        </div>
+        <div class="menu">
+            <div class="menu__items">
+                <h1 class="menu__title">Services</h1>
+                <div class="menu__more">
+                    <img onclick="clock()" class="status" src="./img/icon-3.png" alt="checkstatus icon">
+                    <label class="fig" for="repair">Repair status</label>
+                    <img onclick="clack()" class="requesting" src="./img/icon-2.png" alt="repair icon">
+                    <label class="fig" for="request">Submit a request</label>
+                </div>
+            </div>
+            <div class="menu__buttons">
+                <button class="button1">Repairable devices</button>
+                <button class="button1">Additional Services</button>
+                <button class="button1">Service Prices</button>
+                <button class="button1">Special Prices</button>
+            </div>
+            <div class="menu__extras">
+                <button>Brands we repair</button>
+                <a>Repairable devices</a>
+                <a>Service prices</a>
+                <a>Service center locations</a>
+                <a>Special Prices</a>
+                <a>Reviews</a>
+            </div>
+            <div class="contents">
+                <div class="information">
+                    <p class="information__description">We are an authorized service center for Dell equipment repair. Only with us can you
+                        repair your Dell laptop with the official manufacturer's warranty. We have been operating successfully since 1992 and have earned areputation as a reliable partner.We take pride in the fact that people come to us based on recommendations and in turn,recommend us to their family and friends.</p>
+                    <img class="information__more" src="./img/symbol.png" alt="read more">
+                </div>
+
+                <div class="company-img"></div>
+            </div>
+            <div class="repairing">
+                <p>Repair of equipment with various brands</p>
+                <div class="swiper-container">
+                   <div   class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/lenovo.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Samsung.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Samsung.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/hp.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Bosch.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/acer.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Apple.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Samsung.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/hp.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="brands__item">
+                            <img src="img/Bosch.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                       <div class="brands__item">
+                        <img src="img/Apple.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                       </div>
+                    </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="brands">
+                    <div class="brands__item">
+                        <img src="img/lenovo.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/Apple.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/Samsung.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/hp.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/Bosch.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/acer.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/lenovo.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/Apple.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/hp.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/Bosch.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands__item">
+                        <img src="img/lenovo.png">
+                        <button id ="go"><img src= "img/go.png"></button>
+                    </div>
+                </div>
+                <button id="myid" onclick="clicking()">Show All</button>
+            </div>
+            <div class="repair">
+                <p>Repair of equipment with various brands</p>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>Tablet Repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                           </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>laptop repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>PC-repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>Mobile-repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>Tablet Repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="brands-2__items">
+                                <p>PC-repair</p>
+                                <button id ="go-btn"><img src= "img/go.png"></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="brands-2">
+                    <div class="brands-2__items">
+                        <p>Tablet Repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands-2__items">
+                        <p>laptop repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands-2__items">
+                        <p>PC-repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands-2__items">
+                        <p>Mobile-repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands-2__items">
+                        <p>Tablet Repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                    <div class="brands-2__items">
+                        <p>laptop repair</p>
+                        <button id ="go-btn"><img src= "img/go.png"></button>
+                    </div>
+                </div>
+                <button id="brands-2__id" onclick="hit()">Show All</button>
+
+            </div>
+            <div class="maintain">
+                <p>Service Prices</p>
+                <table>
+                    <tr>
+                        <th>Repair services</th>
+                        <th>Price</th>
+                        <th>time</th>
+                    </tr>
+                    <tr>
+                        <td>Diagnostics</td>
+                        <td>Free</td>
+                        <td>30 min</td>
+                        <td><button class="order">Order</button></td>
+                    </tr>
+                    <tr>
+                        <td>Display Replacement</td>
+                        <td>1000P</td>
+                        <td>30-120 min</td>
+                        <td><button class="order">Order</button></td>
+                    </tr>
+                    <tr>
+                        <td>Polyphonic Speaker Replacement</td>
+                        <td>1000P</td>
+                        <td>30-120 min</td>
+                        <td><button class="order">Order</button></td>
+                    </tr>
+                    <tr>
+                        <td>Testing with a technical report issuance</td>
+                        <td>1000p</td>
+                        <td>30-120 min</td>
+                        <td><button class="order">Order</button></td>
+                    </tr>
+                    <tr>
+                        <td>Software Replacement</td>
+                        <td>1000P</td>
+                        <td>30-120 min</td>
+                        <td><button class="order">Order</button></td>
+                    </tr>
+                </table>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="repair-info">
+                                <div class="issues">
+                                    <p>Repair-services</p>
+                                    <p>Testing with technical report issuance</p>
+                                </div>
+                                <div class="prices">
+                                    <p>Price</p>
+                                    <p>Free</p>
+                                </div>
+                                <div class="time">
+                                    <div class="time__taken">
+                                        <p>Time</p>
+                                        <p>30-120 min</p>
+                                    </div>
+                                    <button class="order-it">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="repair-info">
+                                <div class="issues">
+                                    <p>Repair-services</p>
+                                    <p>Testing with diagnostics issuance</p>
+                                </div>
+                                <div class="prices">
+                                    <p>Price</p>
+                                    <p>1000P</p>
+                                </div>
+                                <div class="time">
+                                    <div class="time__taken">
+                                        <p>Time</p>
+                                        <p>30-120 min</p>
+                                    </div>
+                                    <button class="order-it">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="repair-info">
+                                <div class="issues">
+                                    <p>Repair-services</p>
+                                    <p>Testing with display replacement issuance</p>
+                                </div>
+                                <div class="prices">
+                                    <p>Price</p>
+                                    <p>1000P</p>
+                                </div>
+                                <div class="time">
+                                    <div class="time__taken">
+                                        <p>Time</p>
+                                        <p>30-120 min</p>
+                                    </div>
+                                    <button class="order-it">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="repair-info">
+                                <div class="issues">
+                                    <p>Repair-services</p>
+                                    <p>Testing with Polyphonic speaker replacing issuance</p>
+                                </div>
+                                <div class="prices">
+                                    <p>Price</p>
+                                    <p>1000P</p>
+                                </div>
+                                <div class="time">
+                                    <div class="time__taken">
+                                        <p>Time</p>
+                                        <p>30-120 min</p>
+                                    </div>
+                                    <button class="order-it">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="repair-info">
+                                <div class="issues">
+                                    <p>Repair-services</p>
+                                    <p>Testing with software replacing issuance</p>
+                                </div>
+                                <div class="prices">
+                                    <p>Price</p>
+                                    <p>1000P</p>
+                                </div>
+                                <div class="time">
+                                    <div class="time__taken">
+                                        <p>Time</p>
+                                        <p>30-120 min</p>
+                                    </div>
+                                    <button class="order-it">Order</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <p class="extra-info">All prices are inclusive of VAT. Repair cost is stated for a single service.For a commercial offer on ongoing maintenance,please submit a request.</p>
+            <h2>Get a commercial offer or Request a commercial Proposal.</h2>
+            <footer>
+                <h6>
+                    <p>&copy;2019 CPS Developed by the Apseong</p>
+                    <p>Privacy Policy</p>
+                    <p>The information posted on this page does not constitute a public offer.</p>
+                </h6>
+            </footer>
+
+        </div>
+    </div>
+
+
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
