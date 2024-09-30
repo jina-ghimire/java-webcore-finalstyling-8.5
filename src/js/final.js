@@ -47,11 +47,32 @@ new Swiper(".swiper-container", {
     }
     window.hit = hit;
 
+    function read(){
+      let div=document.querySelector(".inform");
+      let button=document.querySelector("#readmore");
+
+      if( button.innerHTML==="Read more"){
+
+          button.innerHTML="Hide";
+          div.style.height="170px";
+          div.style.overflow ="visible";
+      }
+
+       else{
+          button.innerHTML="Read more";
+          div.style.height="70px";
+          div.style.overflow ="hidden";
+          }
+
+      }
+      window.read = read;
+
 
     function clicked(){
       let x=document.querySelector(".container");
       x.style.display = (x.style.display === "none" || x.style.display === "") ? "block" : "none";
     }
+    window.clicked = clicked;
     let x=document.querySelector(".container");
     x.addEventListener('click',function(event){
         let z=document.querySelector(".main-services");
@@ -59,7 +80,22 @@ new Swiper(".swiper-container", {
           x.style.display='none';
         }
     })
-    window.clicked = clicked;
+    let f=document.querySelector(".feedback");
+    f.addEventListener('click',function(event){
+        let g=document.querySelector(".feedback__contents");
+        if(event.target != g){
+          f.style.display='none';
+        }
+    })
+    let d=document.querySelector(".modal-call");
+    d.addEventListener('click',function(event){
+        let n=document.querySelector(".modal-call__contents");
+        if(event.target != n){
+        d.style.display='none';
+        }
+    })
+
+
 
 
     function clack(){

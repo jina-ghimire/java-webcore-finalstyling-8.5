@@ -96,15 +96,20 @@
             </div>
         </div>
         <div class="header">
-            <button id="header__burger" onclick="clicked()"><img src="./img/icon-1.png" alt="burger icon"></button>
-            <img src="./img/logo.png" alt="logo">
-            <div class="header__extra">
+            <div class="header__left">
+              <button id="header__burger" onclick="clicked()"><img src="./img/icon-1.png" alt="burger icon"></button>
+               <img src="./img/logo.png" alt="logo">
+            </div>
+            <div class="header__right">
+              <div class="header__extra">
                 <img src="./img/call.png" alt="call icon">
                 <img src="./img/chat.png" alt="chat icon">
                 <img src="./img/profile.png" alt="profile icon">
             </div>
             <button class="requesting" onclick="clack()"><img  src="./img/icon-2.png" alt="repair icon"></button>
             <button class="status" onclick="clock()"><img src="./img/icon-3.png" alt="checkstatus icon"></button>
+            </div>
+
         </div>
         <div class="menu">
             <div class="menu__items">
@@ -132,9 +137,12 @@
             </div>
             <div class="contents">
                 <div class="information">
+                    <div class="inform">
                     <p class="information__description">We are an authorized service center for Dell equipment repair. Only with us can you
-                        repair your Dell laptop with the official manufacturer's warranty. We have been operating successfully since 1992 and have earned areputation as a reliable partner.We take pride in the fact that people come to us based on recommendations and in turn,recommend us to their family and friends.</p>
-                    <img class="information__more" src="./img/symbol.png" alt="read more">
+                        repair your Dell laptop with the official manufacturer's warranty.</p>
+                     <p class="information__description"> We have been operating successfully since 1992 and have earned a reputation as a reliable partner.We take pride in the fact that people come to us based on recommendations and in turn,recommend us to their family and friends.</p>
+                    </div>
+                    <button id ="readmore" onclick = "read()">Read more</button>
                 </div>
 
                 <div class="company-img"></div>
@@ -490,7 +498,7 @@
     </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  
+
 </body>
 
 </html>
