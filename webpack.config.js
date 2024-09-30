@@ -71,7 +71,7 @@ module.exports = {
       inject: true,
       minify: {
         removeComments: true,
-        collapseWhitespace: false,
+        collapseWhitespace: true,
       }
     }),
 
@@ -93,7 +93,7 @@ module.exports = {
   devServer: {
     static: path.join(__dirname, 'dist'), // Updated from contentBase
     compress: true,
-    port: 9000,
+    port: 9005,
     hot: true, // Enable Hot Module Replacement
     watchFiles: {
       paths: ['src/**/*'], // Watch for changes in source files
